@@ -1,4 +1,10 @@
 # React Native Lottie Splash View
+
+| Android Demo | iOS Demo |
+|--------------|----------|
+| ![Demo Android](./demo/android-demo.gif) | ![Demo iOS](./demo/ios-demo.gif) |
+| *Figure 1* | *Figure 2* |
+
 ## ⚡️ Quick Start
 
 ```bash

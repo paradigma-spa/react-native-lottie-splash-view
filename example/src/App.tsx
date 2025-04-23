@@ -33,7 +33,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>React Native Splash View Demo</Text>
+      <Text style={styles.title}>Lottie Splash View Demo</Text>
 
       {/* ... TextInputs for Lottie and Duration ... */}
       <View style={styles.inputContainer}>
