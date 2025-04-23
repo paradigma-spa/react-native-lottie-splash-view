@@ -126,11 +126,12 @@
       "publish": true
     },
     "github": {
-      "release": true
+      "release": true,
+      "tokenRef": "SPLASH_TOKEN"
     },
     "plugins": {
       "@release-it/conventional-changelog": {
-        "preset": "angular"
+        "preset": "conventionalcommits"
       }
     }
   },
