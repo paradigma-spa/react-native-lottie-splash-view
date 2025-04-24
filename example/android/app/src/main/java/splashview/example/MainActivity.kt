@@ -23,9 +23,9 @@ class MainActivity : ReactActivity() {
     if (!com.splashview.SplashView.splashShownFromJS) {
         val options = mapOf(
             "lottie" to "logoanimation",
-            "backgroundColor" to "#2a37e6",
+            "backgroundColor" to "#c4067f",
             "resizeMode" to "cover",
-            "duration" to 10000,
+            "repeat" to true,
         )
         // showSplashView will internally handle Lottie or fallback to static
         com.splashview.SplashView.showSplashView(this, options)

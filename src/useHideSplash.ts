@@ -32,7 +32,6 @@ export function useHideSplash(options?: UseHideSplashOptions): void {
   useEffect(() => {
     if (minimumDuration > 0 && !isMinDurationPassed) {
       const timer = setTimeout(() => {
-        console.log('[useHideSplash] Minimum splash duration passed.'); // Update log prefix
         setIsMinDurationPassed(true);
       }, minimumDuration);
       return () => clearTimeout(timer);
@@ -43,9 +42,6 @@ export function useHideSplash(options?: UseHideSplashOptions): void {
   // Internal App Readiness Timer
   useEffect(() => {
     const timer = setTimeout(() => {
-      console.log(
-        '[useHideSplash] Readiness delay passed. Signaling app ready internally.'
-      ); // Update log prefix
       setIsAppReady(true);
     }, readinessDelay);
 
@@ -55,14 +51,7 @@ export function useHideSplash(options?: UseHideSplashOptions): void {
   // 3. Hide splash when both conditions are met
   useEffect(() => {
     if (isAppReady && isMinDurationPassed) {
-      console.log(
-        '[useHideSplash] Hiding splash: App is ready AND minimum duration passed.'
-      ); // Update log prefix
       hideSplash?.();
-    } else {
-      console.log(
-        `[useHideSplash] Waiting to hide splash: AppReady=${isAppReady}, MinDurationPassed=${isMinDurationPassed}`
-      ); // Update log prefix
     }
   }, [isAppReady, isMinDurationPassed]);
 }
