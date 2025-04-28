@@ -1322,7 +1322,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.25.2, @babel/preset-env@npm:^7.25.3":
+"@babel/preset-env@npm:^7.25.2":
   version: 7.26.9
   resolution: "@babel/preset-env@npm:7.26.9"
   dependencies:
@@ -2827,29 +2827,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native/metro-config@npm:0.77.1":
-  version: 0.77.1
-  resolution: "@react-native/metro-config@npm:0.77.1"
-  dependencies:
-    "@react-native/js-polyfills": 0.77.1
-    "@react-native/metro-babel-transformer": 0.77.1
-    metro-config: ^0.81.0
-    metro-runtime: ^0.81.0
-  checksum: c1152396cd1d2e7e4b8a97a912a254ed33e6459646cb103f08cdfc205bcdb565caecee0bdf406d87a213d5a749fbdc242dffbe182bffcef94d242136bdc4ffdd
-  languageName: node
-  linkType: hard
-
 "@react-native/normalize-colors@npm:0.77.1":
   version: 0.77.1
   resolution: "@react-native/normalize-colors@npm:0.77.1"
   checksum: e35ca03e281dc1f8df061bd4bc858484a2a33308468e75791499e85b6fc19d23c368d7ba0a43d9a5bc725d5c4c282592231fa18df240bffaa7d4b6a91389fb2a
-  languageName: node
-  linkType: hard
-
-"@react-native/typescript-config@npm:0.77.1":
-  version: 0.77.1
-  resolution: "@react-native/typescript-config@npm:0.77.1"
-  checksum: 448b0deade3380a123660fde93072150148875c8628c575a8e88ba01fc17a8a641589b809535357ad983f3f69103c0e77f97fe0e3d11922974db180fd0926eb4
   languageName: node
   linkType: hard
 
@@ -10533,32 +10514,6 @@ __metadata:
   checksum: 2d47c039e3d6f90cd6a074cbe35c2dfc96868a73a6aee503fb981aace1c1ec2830517ce4910f5e368a558ed2f10302f60361cb1bf37ef341a913d125020bd2ee
   languageName: node
   linkType: hard
-
-"react-native-lottie-splash-view-example@workspace:example":
-  version: 0.0.0-use.local
-  resolution: "react-native-lottie-splash-view-example@workspace:example"
-  dependencies:
-    "@babel/core": ^7.25.2
-    "@babel/preset-env": ^7.25.3
-    "@babel/runtime": ^7.25.0
-    "@react-native-community/cli": 15.0.1
-    "@react-native-community/cli-platform-android": 15.0.1
-    "@react-native-community/cli-platform-ios": 15.0.1
-    "@react-native/babel-preset": 0.77.1
-    "@react-native/metro-config": 0.77.1
-    "@react-native/typescript-config": 0.77.1
-    react: 18.3.1
-    react-native: 0.77.1
-    react-native-builder-bob: ^0.36.0
-    react-native-lottie-splash-view: "link:../"
-  languageName: unknown
-  linkType: soft
-
-"react-native-lottie-splash-view@link:../::locator=react-native-lottie-splash-view-example%40workspace%3Aexample":
-  version: 0.0.0-use.local
-  resolution: "react-native-lottie-splash-view@link:../::locator=react-native-lottie-splash-view-example%40workspace%3Aexample"
-  languageName: node
-  linkType: soft
 
 "react-native-lottie-splash-view@workspace:.":
   version: 0.0.0-use.local
