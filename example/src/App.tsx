@@ -12,7 +12,7 @@ export default function App() {
 
   // --- Use the hook for Initial Splash Hiding ---
   // Call the hook - it handles readiness internally now
-  useHideSplash({ minimumDuration: 3000, readinessDelay: 2000}); // Optional: readinessDelay: 2000
+  useHideSplash({ minimumDuration: 3000, readinessDelay: 2000 }); // Optional: readinessDelay: 2000
 
   const handleShowStaticSplash = () => {
     showTimedSplash({
