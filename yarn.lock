@@ -10550,15 +10550,19 @@ __metadata:
     react: 18.3.1
     react-native: 0.77.1
     react-native-builder-bob: ^0.36.0
-    react-native-lottie-splash-view: "link:../"
+    react-native-lottie-splash-view: "file:../"
   languageName: unknown
   linkType: soft
 
-"react-native-lottie-splash-view@link:../::locator=react-native-lottie-splash-view-example%40workspace%3Aexample":
-  version: 0.0.0-use.local
-  resolution: "react-native-lottie-splash-view@link:../::locator=react-native-lottie-splash-view-example%40workspace%3Aexample"
+"react-native-lottie-splash-view@file:../::locator=react-native-lottie-splash-view-example%40workspace%3Aexample":
+  version: 0.0.4
+  resolution: "react-native-lottie-splash-view@file:../#../::hash=daf952&locator=react-native-lottie-splash-view-example%40workspace%3Aexample"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 414886e609ff6825261f9436bdd1a87fa6e5df07214d465329a7483b9cddce4f9cb5c6342f1f44aa59a170041182f068fb9ef818b36f6d05f6a5d511872a8bbc
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "react-native-lottie-splash-view@workspace:.":
   version: 0.0.0-use.local
