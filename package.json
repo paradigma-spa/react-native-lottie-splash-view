@@ -164,7 +164,6 @@
     "source": "src",
     "output": "lib",
     "targets": [
-      "codegen",
       [
         "commonjs",
         {
@@ -197,7 +196,7 @@
     "android": {
       "javaPackageName": "com.splashview"
     },
-    "includesGeneratedCode": true
+    "includesGeneratedCode": false
   },
   "create-react-native-library": {
     "type": "turbo-module",
